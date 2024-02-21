@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background: #0B4F6C;
+    color: #ffff;
+    /* text-align: center;     */
+}
+
+
+
+#currency-Conv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#currencyContainer h1{
+    background: none;
+    height: none;
+    line-height: none;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+#currencyContainer{
+    background: #370031;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    width: 45vh;
+    min-height: 45vh;
+}
+
+.amount input,form select,#convertCurrency{
+    border: none;
+    width: 100%;
+    border-radius: 0.5rem;
+    outline: none;
+}
+form{
+    margin: 1rem;
+}
+.amount input{
+    height: 2rem;
+    padding-left: 1rem;
+    /* border: 1px solid lightgray; */
+    font-size: 1rem;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+.dropdown i{
+    font-size: 1.15rem;
+    margin-top: 1rem;
+}
+.selectContainer img{
+    max-width: 2rem;
+}
+
+.selectContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    border: 1px solid lightgray;
+    border-radius: 0.75rem;
+    background: #ffff;
+    /* padding: 0.2rem; */
+}
+.selectContainer select{
+    font-size: 1rem;
+    width: auto;
+}
+#conv-Currency{
+    margin-top: 1.5rem;
+    background: #ffff;
+    color: #000;
+    /* padding: 0.5rem; */
+    border-radius: 0.5rem;
+}
+#conv-Currency{
+    font-size: 1rem;
+    padding: 0.75rem;
+}
+#convertCurrency{
+    margin-top: 1.5rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    background: #0B0033;
+    color: #ffff;
+}
+
+#selectService{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    gap: 1rem;
+}
+.select_Service{
+    height: 200px;
+    width: 200px;
+    padding: 1rem;
+    font-size: 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1rem rgb(0, 0, 0, 0.3);
+    background: #1F2F16;
+    color: #ffff;
+}
